@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class Table extends Component {
     render() {
-        const { characterData, removeCharacter } = this.props;
+        // const { characterData, removeCharacter } = this.props;
+        const { characterData } = this.props;
         const rows = characterData.map((row, index) => {
             return (
                 <table key={index}>
